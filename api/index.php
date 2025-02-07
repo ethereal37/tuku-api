@@ -4,7 +4,7 @@ $seed = time();
 //获取随机数
 $num = rand(1,21);
 //拼接图片地址
-$picpath = "https://github.com/ethereal37/tuku-api/tree/main/img".$num.".jpg";
+$picpath = "https://github.com/ethereal37/tuku-api/tree/main/img/".$num.".jpg";
 //重定位到图片
 die(header("Location: $picpath"));
 ?>
